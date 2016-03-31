@@ -1,0 +1,11 @@
+@import "func", "grid", "variables";
+
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+  background-color: $bg-color;
+}

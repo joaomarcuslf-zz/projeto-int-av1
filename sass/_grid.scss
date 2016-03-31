@@ -1,0 +1,31 @@
+$grid-columns: 12;
+
+.container {
+  width: 98%;
+  padding: 1%;
+  display: block;
+  margin: 0 auto;
+}
+
+.row {
+  padding: 0.5em;
+}
+
+
+@mixin grid-porpeties() {
+  float: left;
+  box-sizing: border-box;
+  display: block;
+  position: relative;
+  min-height: 1px;
+ padding: 0.7%;
+  max-width: 60em;
+  background-color: transparent;
+}
+
+@for $i from 1 through $grid-columns{ 
+  .grid-#{$i} {
+    width: 100% / $grid-columns * $i;
+    @include grid-porpeties();
+  }
+}
