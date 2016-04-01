@@ -1,0 +1,24 @@
+{
+  "name": "projeto-av1",
+  "version": "1.0.0",
+  "description": "Projeto de AV1 para a matéria Internet de Faeterj-Rio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaomarcuslf/projeto-int-av1.git"
+  },
+  "author": "Letícia Almeida e João Marcus Fernandes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joaomarcuslf/projeto-int-av1/issues"
+  },
+  "homepage": "https://github.com/joaomarcuslf/projeto-int-av1#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-ruby-sass": "^2.0.6"
+  }
+}

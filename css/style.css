@@ -1,0 +1,149 @@
+.container {
+  width: 98%;
+  padding: 1%;
+  display: block;
+  margin: 0 auto; }
+
+.row {
+  padding: 0.5em; }
+
+.grid-1 {
+  width: 8.33333%;
+  float: left;
+  box-sizing: border-box;
+  display: block;
+  position: relative;
+  min-height: 1px;
+  padding: 0.7%;
+  max-width: 60em;
+  background-color: transparent; }
+
+.grid-2 {
+  width: 16.66667%;
+  float: left;
+  box-sizing: border-box;
+  display: block;
+  position: relative;
+  min-height: 1px;
+  padding: 0.7%;
+  max-width: 60em;
+  background-color: transparent; }
+
+.grid-3 {
+  width: 25%;
+  float: left;
+  box-sizing: border-box;
+  display: block;
+  position: relative;
+  min-height: 1px;
+  padding: 0.7%;
+  max-width: 60em;
+  background-color: transparent; }
+
+.grid-4 {
+  width: 33.33333%;
+  float: left;
+  box-sizing: border-box;
+  display: block;
+  position: relative;
+  min-height: 1px;
+  padding: 0.7%;
+  max-width: 60em;
+  background-color: transparent; }
+
+.grid-5 {
+  width: 41.66667%;
+  float: left;
+  box-sizing: border-box;
+  display: block;
+  position: relative;
+  min-height: 1px;
+  padding: 0.7%;
+  max-width: 60em;
+  background-color: transparent; }
+
+.grid-6 {
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+  display: block;
+  position: relative;
+  min-height: 1px;
+  padding: 0.7%;
+  max-width: 60em;
+  background-color: transparent; }
+
+.grid-7 {
+  width: 58.33333%;
+  float: left;
+  box-sizing: border-box;
+  display: block;
+  position: relative;
+  min-height: 1px;
+  padding: 0.7%;
+  max-width: 60em;
+  background-color: transparent; }
+
+.grid-8 {
+  width: 66.66667%;
+  float: left;
+  box-sizing: border-box;
+  display: block;
+  position: relative;
+  min-height: 1px;
+  padding: 0.7%;
+  max-width: 60em;
+  background-color: transparent; }
+
+.grid-9 {
+  width: 75%;
+  float: left;
+  box-sizing: border-box;
+  display: block;
+  position: relative;
+  min-height: 1px;
+  padding: 0.7%;
+  max-width: 60em;
+  background-color: transparent; }
+
+.grid-10 {
+  width: 83.33333%;
+  float: left;
+  box-sizing: border-box;
+  display: block;
+  position: relative;
+  min-height: 1px;
+  padding: 0.7%;
+  max-width: 60em;
+  background-color: transparent; }
+
+.grid-11 {
+  width: 91.66667%;
+  float: left;
+  box-sizing: border-box;
+  display: block;
+  position: relative;
+  min-height: 1px;
+  padding: 0.7%;
+  max-width: 60em;
+  background-color: transparent; }
+
+.grid-12 {
+  width: 100%;
+  float: left;
+  box-sizing: border-box;
+  display: block;
+  position: relative;
+  min-height: 1px;
+  padding: 0.7%;
+  max-width: 60em;
+  background-color: transparent; }
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  background-color: white;
+  padding: 1%; }
