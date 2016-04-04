@@ -7,10 +7,10 @@ gulp.task('default', function() {
 });
 
 gulp.task('sass', function () {
-  return sass('sass/*.scss')
+  return sass('sass/style.scss')
     .on('error', sass.logError)
-    .pipe(gulp.dest('css/')
-    .pipe(cleanCSS({compatibility: 'ie8'})));
+    .pipe(gulp.dest('css/'))
+    .pipe(cleanCSS({compatibility: 'ie8'}));
 });
 
 gulp.task('sass:watch', function () {

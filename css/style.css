@@ -2,10 +2,12 @@
   width: 98%;
   padding: 1%;
   display: block;
-  margin: 0 auto; }
+  margin: 0 auto;
+}
 
 .row {
-  padding: 0.5em; }
+  padding: 0.5em;
+}
 
 .grid-1 {
   width: 8.33333%;
@@ -13,10 +15,10 @@
   box-sizing: border-box;
   display: block;
   position: relative;
-  min-height: 1px;
   padding: 0.7%;
   max-width: 60em;
-  background-color: transparent; }
+  background-color: transparent;
+}
 
 .grid-2 {
   width: 16.66667%;
@@ -24,10 +26,10 @@
   box-sizing: border-box;
   display: block;
   position: relative;
-  min-height: 1px;
   padding: 0.7%;
   max-width: 60em;
-  background-color: transparent; }
+  background-color: transparent;
+}
 
 .grid-3 {
   width: 25%;
@@ -35,10 +37,10 @@
   box-sizing: border-box;
   display: block;
   position: relative;
-  min-height: 1px;
   padding: 0.7%;
   max-width: 60em;
-  background-color: transparent; }
+  background-color: transparent;
+}
 
 .grid-4 {
   width: 33.33333%;
@@ -46,10 +48,10 @@
   box-sizing: border-box;
   display: block;
   position: relative;
-  min-height: 1px;
   padding: 0.7%;
   max-width: 60em;
-  background-color: transparent; }
+  background-color: transparent;
+}
 
 .grid-5 {
   width: 41.66667%;
@@ -57,10 +59,10 @@
   box-sizing: border-box;
   display: block;
   position: relative;
-  min-height: 1px;
   padding: 0.7%;
   max-width: 60em;
-  background-color: transparent; }
+  background-color: transparent;
+}
 
 .grid-6 {
   width: 50%;
@@ -68,10 +70,10 @@
   box-sizing: border-box;
   display: block;
   position: relative;
-  min-height: 1px;
   padding: 0.7%;
   max-width: 60em;
-  background-color: transparent; }
+  background-color: transparent;
+}
 
 .grid-7 {
   width: 58.33333%;
@@ -79,10 +81,10 @@
   box-sizing: border-box;
   display: block;
   position: relative;
-  min-height: 1px;
   padding: 0.7%;
   max-width: 60em;
-  background-color: transparent; }
+  background-color: transparent;
+}
 
 .grid-8 {
   width: 66.66667%;
@@ -90,10 +92,10 @@
   box-sizing: border-box;
   display: block;
   position: relative;
-  min-height: 1px;
   padding: 0.7%;
   max-width: 60em;
-  background-color: transparent; }
+  background-color: transparent;
+}
 
 .grid-9 {
   width: 75%;
@@ -101,10 +103,10 @@
   box-sizing: border-box;
   display: block;
   position: relative;
-  min-height: 1px;
   padding: 0.7%;
   max-width: 60em;
-  background-color: transparent; }
+  background-color: transparent;
+}
 
 .grid-10 {
   width: 83.33333%;
@@ -112,10 +114,10 @@
   box-sizing: border-box;
   display: block;
   position: relative;
-  min-height: 1px;
   padding: 0.7%;
   max-width: 60em;
-  background-color: transparent; }
+  background-color: transparent;
+}
 
 .grid-11 {
   width: 91.66667%;
@@ -123,10 +125,10 @@
   box-sizing: border-box;
   display: block;
   position: relative;
-  min-height: 1px;
   padding: 0.7%;
   max-width: 60em;
-  background-color: transparent; }
+  background-color: transparent;
+}
 
 .grid-12 {
   width: 100%;
@@ -134,16 +136,196 @@
   box-sizing: border-box;
   display: block;
   position: relative;
-  min-height: 1px;
   padding: 0.7%;
   max-width: 60em;
-  background-color: transparent; }
+  background-color: transparent;
+}
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 body {
-  background-color: white;
-  padding: 1%; }
+  background-color: #5B2A00;
+  padding: 1%;
+}
+
+.centered-text {
+  text-align: center;
+  background: transparent;
+}
+
+nav.nav-wrapper {
+  background-color: black;
+  width: 71.1%;
+  margin: 0 auto;
+}
+
+nav.nav-wrapper div.navbar {
+  background-image: url(../img/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  width: 100%;
+}
+
+nav.nav-wrapper div.navbar img {
+  padding: 3em 2em 3em 2em;
+}
+
+nav.nav-wrapper div.navbar .text-wrapper {
+  float: right;
+  padding-right: 2%;
+  text-align: center;
+  margin-top: 110px;
+}
+
+nav.nav-wrapper div.navbar .text-wrapper p.primary-call-text {
+  color: aliceblue;
+  font-family: serif;
+  font-size: 1.3em;
+  font-weight: 500;
+  letter-spacing: -2px;
+}
+
+nav.nav-wrapper div.navbar .text-wrapper p.secondary-call-text {
+  color: #95AB7C;
+  font-family: serif;
+  font-size: 1.1em;
+  font-weight: 500;
+  letter-spacing: -1px;
+}
+
+nav.nav-wrapper div.navlink-wrapper {
+  color: aliceblue;
+  padding-left: 100px;
+  position: relative;
+  padding-bottom: 1px;
+}
+
+nav.nav-wrapper div.navlink-wrapper li {
+  display: inline;
+  padding: 0px 2px 0px 2px;
+  font-weight: bold;
+}
+
+nav.nav-wrapper div.navlink-wrapper li a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+nav.nav-wrapper div.navlink-wrapper li a:hover {
+  color: #FFD700;
+}
+
+header.header-wrapper {
+  background-color: #7E3300;
+  margin: 0 auto;
+  width: 71.1%;
+  height: 200px;
+}
+
+header.header-wrapper img {
+  padding: 3em 2em 3em 2em;
+  margin-left: 10px;
+  float: left;
+}
+
+header.header-wrapper .text-wrapper {
+  padding-top: 2em;
+  line-height: 80%;
+}
+
+header.header-wrapper .text-wrapper .line-1 {
+  color: aliceblue;
+  font-size: 1.3em;
+  font-family: serif;
+  font-weight: bolder;
+}
+
+header.header-wrapper .text-wrapper .line-2 {
+  color: #FFD700;
+  font-size: 1.1em;
+  font-family: serif;
+  font-weight: bold;
+}
+
+header.header-wrapper .text-wrapper .line-3 {
+  color: #7a7a7a;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+header.header-wrapper .text-wrapper a {
+  text-decoration: none;
+  color: aliceblue;
+  font-weight: bold;
+  letter-spacing: -1px;
+  font-size: 70%;
+  padding-left: 2%;
+}
+
+header.header-wrapper .text-wrapper a:hover {
+  color: #FFD700;
+}
+
+footer.copyright-bar {
+  width: 100%;
+  background-color: black;
+  box-sizing: border-box;
+  display: block;
+  border: 0.2em #111121 dashed;
+}
+
+footer.copyright-bar .centered-text {
+  color: aliceblue;
+  padding: 0.2em;
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+
+.form-wrapper {
+  margin: 0 auto;
+  width: 71.1%;
+  text-align: center;
+}
+
+.form-wrapper input,
+.form-wrapper textarea {
+  width: 30em;
+  min-height: 3em;
+}
+
+.form-wrapper input:hover,
+.form-wrapper textarea:hover {
+  border: 0.3em #FFD700 groove;
+}
+
+.form-wrapper input:focus,
+.form-wrapper textarea:focus {
+  box-shadow: 0px 0px 30px #FFD700;
+}
+
+.form-wrapper .submit {
+  border: 2px #3a4afa solid;
+  font-size: 0.7em;
+}
+
+.form-wrapper .reset {
+  border: 2px #fa4a3a solid;
+  font-size: 0.7em;
+}
+
+.form-wrapper label {
+  font-size: 110%;
+  font-weight: bold;
+  color: aliceblue;
+}
+
+
+/*# sourceMappingURL=style.css.map */
