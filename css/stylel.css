@@ -8,7 +8,7 @@ article
 	background-color: black;
 	display: block;
 	margin: 0 auto;
-	padding: 40px;
+	padding: 35px;
 	
 }
 
@@ -91,5 +91,5 @@ a:active {
 
 .newsletter
 {
-	margin:4em 0em 0em 0em;
+	margin:1.3em 0em 0em 0em;
 }
