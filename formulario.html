@@ -1,72 +1,86 @@
 <!DOCTYPE html>
 <html>
-	<head>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="Letícia Almeida e João Marcus Fernandes" >
-    <meta property="og:site_name" content="">
-    <meta property="og:title" content="">
-    <meta property="og:description" content="">
-    <meta property="og:image" content="">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="Letícia Almeida e João Marcus Fernandes" >
+	<meta property="og:site_name" content="">
+	<meta property="og:title" content="">
+	<meta property="og:description" content="">
+	<meta property="og:image" content="">
 
-		<title>Formulário com Envio PHP</title>
+	<title>Formulário com Envio PHP</title>
 
-    <link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/style.css">
 
-    <!-- IE Support -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-	</head>
-	<body>
+	<!-- IE Support -->
+	<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
+<body>
 	<nav class="nav-wrapper">
-    <div class="navbar">
-      <img src="img/logo.gif" alt="Logo" align="left">
+		<div class="navbar">
+			<img src="img/logo.gif" alt="Logo" align="left">
 
-      <div class="text-wrapper">
-        <p class="primary-call-text">Venha para a melhor casa de festa de Quintino</p>
-        <p class="secondary-call-text">Night Party, a melhor a maior!</p>
-      </div>
-    </div>
-    <br>
-    <div class="navlink-wrapper">
-      <ul>
-        <li><a href="index.html">Principal</a></li>
-        <li>|</li>
-        <li><a href="#" onclick="alerta()">Sobre nós</a></li>
-        <li>|</li>
-        <li><a href="#" onclick="alerta()">Galeria</a></li>
-        <li>|</li>
-        <li><a href="#" onclick="alerta()">Informações</a></li>
-        <li>|</li>
-        <li><a href="formulario.html">Contate-nos</a></li>
-      </ul>
-    </div>
-  </nav>
+			<div class="text-wrapper">
+				<p class="primary-call-text">Venha para a melhor casa de festa de Quintino</p>
+				<p class="secondary-call-text">Night Party, a melhor a maior!</p>
+			</div>
+		</div>
+		<br>
+		<div class="navlink-wrapper">
+			<ul class="inline-list">
+				<li><a href="index.html">Principal</a></li>
+				<li>|</li>
+				<li><a href="#" onclick="alerta()">Sobre nós</a></li>
+				<li>|</li>
+				<li><a href="#" onclick="alerta()">Galeria</a></li>
+				<li>|</li>
+				<li><a href="#" onclick="alerta()">Informações</a></li>
+				<li>|</li>
+				<li><a href="formulario.html">Contate-nos</a></li>
+			</ul>
+		</div>
+	</nav>
 
-  <br><br><br>
+	<br>
+	<div class="form-wrapper">
+		<form method="post" action="php/envia.php" target="_blank">
+			<label>Nome:*</label><br>
+			<input type="text" name="contatoNome" placeholder="Seu nome" size="30" autofocus required><br>
+			<label>E-mail:*</label><br>
+			<input type="email" name="contatoMail" placeholder="seu@email.com" size="30" required><br>
+			<label>Cidade:*</label><br>
+			<input type="text" name="contatoCidade" placeholder="Cidade" size="30" required><br>
+			<label>Comentário:*</label><br>
+			<textarea name="contatoComentario" rows="5" cols="20" placeholder="Comentário / Sugestões" required></textarea><br><br>
+			<input class="submit" type="submit" value="enviar">
+			<input class="reset" type="reset" value="apagar">
+		</form>
+	</div>
+	<br><br><br>
+	<footer class="copyright-bar">
+		<hr class="dashed-line">
+		<div class="center-align">
+			<ul class="inline-list">
+				<li><a href="index.html">Principal</a></li>
+				<li>|</li>
+				<li><a href="#" onclick="alerta()">Sobre nós</a></li>
+				<li>|</li>
+				<li><a href="#" onclick="alerta()">Galeria</a></li>
+				<li>|</li>
+				<li><a href="#" onclick="alerta()">Informações</a></li>
+				<li>|</li>
+				<li><a href="formulario.html">Contate-nos</a></li>
+			</ul>
+		</div>
+		<p class="centered-text">&copy Esse layout foi feito por Letícia Almeida e João Marcus Fernandes</p>
+	</footer>
+	<script src="js/script.js"></script>
 
-  <div class="form-wrapper">
-        <form method="post" action="php/envia.php" target="_blank">
-            <label>Nome:*</label><br>
-            <input type="text" name="contatoNome" placeholder="Seu nome" size="30" autofocus required><br>
-            <label>E-mail:*</label><br>
-            <input type="email" name="contatoMail" placeholder="seu@email.com" size="30" required><br>
-            <label>Cidade:*</label><br>
-            <input type="text" name="contatoCidade" placeholder="Cidade" size="30" required><br>
-            <label>Comentário:*</label><br>
-            <textarea name="contatoComentario" rows="5" cols="20" placeholder="Comentário / Sugestões" required></textarea><br><br>
-            <input class="submit" type="submit" value="enviar">
-            <input class="reset" type="reset" value="apagar">
-        </form>
-    </div>
-    <br><br>
-    <footer class="copyright-bar">
-      <p class="centered-text">&copy Esse layout foi feito por Letícia Almeida e João Marcus Fernandes</p>
-    </footer>
-  </body>
+</body>
 </html>
-

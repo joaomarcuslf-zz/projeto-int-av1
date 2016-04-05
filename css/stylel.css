@@ -1,95 +1,85 @@
-article
-{
-	width: 71.1%;
-	height:500px;
-	color: #DFB139;
-	font-family: Georgia,'Times New Roman', serif;
-	font-size:135%;
-	background-color: black;
-	display: block;
-	margin: 0 auto;
-	padding: 35px;
-	
+article {
+  width: 71.1%;
+  height: 500px;
+  color: #DFB139;
+  font-family: Georgia,'Times New Roman', serif;
+  font-size: 135%;
+  background-color: black;
+  display: block;
+  margin: 0 auto;
+  padding: 35px;
 }
 
-.texto1
-{
-	color:#DFB139;
-	margin:1em 1em 0em 0em;
+.texto1 {
+  color: #DFB139;
+  margin: 1em 1em 0em 0em;
 }
 
-.texto2
-{
-	color:#DFB139;
-	margin:0em 2em 1em 5.8em;
+.texto2 {
+  color: #DFB139;
+  margin: 0em 2em 1em 5.8em;
 }
 
-.texto3
-{
-	color:#DFB139;
-	margin:0em 3em 1em 2.5em;	
+.texto3 {
+  color: #DFB139;
+  margin: 0em 3em 1em 2.5em;
 }
 
 a:link, a:visited {
-	text-decoration: none;
-	}
+  text-decoration: none;
+}
+
 a:hover {
-	text-decoration: none; 
-	color: #A0862E;
-	}
+  text-decoration: none;
+  color: #A0862E;
+}
+
 a:active {
-	text-decoration: none;
-	}
-	
-.novidade
-{
-	color:white;
-	font-size:14px;
-	font-weight:bold;
-	font-family:arial, verdana, san-serif;
+  text-decoration: none;
 }
 
-.imagem
-{
-	margin:1em 1em 1em 0em;
+.novidade {
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: arial, verdana, san-serif;
 }
 
-#text_galera1
-{
-	color:white;
-	font-weight:bold;
-	font-size:12px;
-	font-style:justify;
-	font-family:arial, verdana, san-serif;
-	margin-left:3px;
+.imagem {
+  margin: 1em 1em 1em 0em;
 }
 
-#text_galera2
-{
-	color:#A9A9A9;
-	font-size:12px;
-	font-style:justify;
-	font-family:arial, verdana, san-serif;
-	margin-left:3px;
+#text_galera1 {
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  font-style: justify;
+  font-family: arial, verdana, san-serif;
+  margin-left: 3px;
 }
 
-.wrapper
-{
-	float:left;
-	width:308px;
-	padding-right:35px;
+#text_galera2 {
+  color: #A9A9A9;
+  font-size: 12px;
+  font-style: justify;
+  font-family: arial, verdana, san-serif;
+  margin-left: 3px;
 }
 
-.data
-{
-	color: #733300;
-	font-size:12px;
-	font-style:justify;
-	margin-top:20px;
-	margin-bottom:20px;
+.wrapper {
+  float: left;
+  width: 308px;
+  padding-right: 35px;
 }
 
-.newsletter
-{
-	margin:1.3em 0em 0em 0em;
+.data {
+  color: #733300;
+  font-size: 12px;
+  font-style: justify;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.newsletter {
+  margin: 1.3em 0em 0em 0em;
 }
