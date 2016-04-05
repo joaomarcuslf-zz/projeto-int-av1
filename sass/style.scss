@@ -49,8 +49,8 @@ p.secondary-call-text {
   font-weight: 500;
   letter-spacing: -1px;
 }
-    }
-  }
+}
+}
 }
 
 div.navlink-wrapper {
@@ -61,7 +61,7 @@ div.navlink-wrapper {
   a {
     text-decoration: none;
   color: aliceblue;
-  &: hover {
+  &:hover {
       color:#FFD700;
 }
   }
@@ -117,7 +117,8 @@ a {
   letter-spacing: -1px;
   font-size: 70%;
   padding-left: 2%;
-  &: hover {
+  font-size: 0.9em;
+  &:hover {
           color:#FFD700;
 }
     }
@@ -149,7 +150,7 @@ box-sizing: border-box;
   a {
       color: aliceblue;
   text-decoration: none;
-  &: hover {
+  &:hover {
         color: #ffd700;
   text-decoration: underline;
 }
@@ -164,7 +165,7 @@ box-sizing: border-box;
   input, textarea {
     width: 30em;
   min-height: 3em;
-  &: hover {
+  &:hover {
       border: 0.3em #FFD700 groove;
 }
     &:focus {

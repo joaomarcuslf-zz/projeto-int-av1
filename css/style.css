@@ -129,6 +129,7 @@ header.header-wrapper .text-wrapper a {
   letter-spacing: -1px;
   font-size: 70%;
   padding-left: 2%;
+  font-size: 0.9em;
 }
 
 header.header-wrapper .text-wrapper a:hover {
